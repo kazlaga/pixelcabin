@@ -6,6 +6,7 @@ import Block from '../components/blocks/block';
 const props = [
   {
     theme: 'blue',
+    id: "blue",
     title: 'Zlatan Kazlagic',
     description: 'Pixelcabin works with some of the world’s most influential companies to engineer their e-commerce solutions, using the Shopify Plus platform.Whether it’s a bespoke app to provide your customers with a unique feature, an integration to connect with your 3PL provider, or integrating with your team to set up a cross-region platform and workflow - we have you covered.',
     button: 'GitHub',
@@ -22,9 +23,10 @@ const props = [
   },
   {
     theme: 'red',
+    id: "red",
     title: 'Education',
     description: "",
-    image: '/images/ruby.png',
+    image: '/images/education.png',
     education: [
       {
         period: '2016 - 2017',
@@ -42,6 +44,7 @@ const props = [
   },
   {
     theme: 'green',
+    id: "green",
     title: 'Work Experience',
     description: "",
     education: null,
