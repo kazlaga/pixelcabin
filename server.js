@@ -3,8 +3,7 @@ var express = require('express');
 
 var app = express();
 
-app.use(express.static(path.join(process.cwd(), 'dist')));
-app.use('/images',  express.static(__dirname + '/dist/images'));
+app.use(express.static(path.join(process.cwd(), '/dist')));
 app.set('port', process.env.PORT || 8080);
 
 var server = app.listen(app.get('port'), function() {
