@@ -15,7 +15,7 @@ const props = [
     image: '/images/sensation.png',
     about: [
       {
-        address: 'Metropolestraat 32, 1315km, Almere',
+        address: 'Metropolestraat 32, 1315 KM, Almere',
         email: 'kazlaga@gmail.com',
         phone: '+31 6 5174 77 69'
       }
@@ -57,7 +57,7 @@ const props = [
         description: "At Elements I’ve worked as a Front-end developer where I worked with React and Redux for various projects such as Senstion.com, KPN Smartwall and VGN.nl. As a team we followed Agile principles."
       },
       {
-        period: "2018 jan aug – 2018 apr",
+        period: "2018 jan – 2018 apr",
         company: "AdCombi",
         title: "Intern Ruby on Rails trainee",
         description: "AdCombi gave me the opportunity the learn the basics of Ruby on Rails, and to dig deeper into the basics of backend development."

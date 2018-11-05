@@ -7,7 +7,6 @@ export default class Block extends React.Component {
       <div className="block" id={this.props.id}>
         <div className={`block__left block__left--${this.props.theme}`}>
           <h1 className="block__left--title">{this.props.title}</h1>
-          {/* <img className="block__left__image" src={this.props.image}></img> */}
           <div className="block__left__image" style={{backgroundImage: `url(${this.props.image})`}}></div>
         </div>
         <div className={`block__right block__right--${this.props.theme}`}>
