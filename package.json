@@ -13,12 +13,15 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open",
+    "start": "webpack -p --progress && node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },

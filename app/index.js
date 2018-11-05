@@ -11,7 +11,7 @@ const props = [
     button: 'GitHub',
     firstblock: "Visit my GitHub",
     secondblock: 'Contact info',
-    image: '../assets/sensation.png',
+    image: '/images/sensation.png',
     about: [
       {
         address: 'Metropolestraat 32, 1315km, Almere',
@@ -24,7 +24,7 @@ const props = [
     theme: 'red',
     title: 'Education',
     description: "",
-    image: '../assets/ruby.png',
+    image: '/images/ruby.png',
     education: [
       {
         period: '2016 - 2017',
@@ -45,7 +45,7 @@ const props = [
     title: 'Work Experience',
     description: "",
     education: null,
-    image: '../assets/resume.png',
+    image: '/images/resume.png',
     jobexperience: [
       {
         period: "2017 aug – 2018 dec",

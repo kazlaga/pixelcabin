@@ -19,6 +19,10 @@ module.exports = {
   },
 
   mode: 'development',
+  devServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'app/index.html'
