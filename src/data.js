@@ -7,7 +7,7 @@ const data = [
     description: 'Front-end developer with two years of experience with modern front-end technologies, and two years of experience with design. Passionate and knowledgeable about computers, having studied and worked within the IT field.',
     image: '/images/sensation.png',
     cta: {
-      title: 'Visit my Github',
+      title: 'View my source code',
       buttonText: 'Github'
     },
     footer: {
